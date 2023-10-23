@@ -1,0 +1,64 @@
+[
+  {
+    "discuss": [
+      {
+        "id": 1,
+        "icon": "https://randomuser.me/api/portraits/med/men/93.jpg",
+        "name": "Home",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "icon": "https://randomuser.me/api/portraits/med/men/27.jpg",
+        "name": "Podcast",
+        "link": ""
+      },
+      {
+        "id": 3,
+        "icon": "https://randomuser.me/api/portraits/med/men/43.jpg",
+        "name": "Video",
+        "link": ""
+      },
+      {
+        "id": 4,
+        "icon": "https://randomuser.me/api/portraits/med/men/23.jpg",
+        "name": "Tags",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "watercooler": [
+      {
+        "id": 1,
+        "icon": "https://randomuser.me/api/portraits/med/men/93.jpg",
+        "name": "Home",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "icon": "https://randomuser.me/api/portraits/med/men/27.jpg",
+        "name": "Podcast",
+        "link": ""
+      },
+      {
+        "id": 3,
+        "icon": "https://randomuser.me/api/portraits/med/men/43.jpg",
+        "name": "Video",
+        "link": ""
+      },
+      {
+        "id": 4,
+        "icon": "https://randomuser.me/api/portraits/med/men/23.jpg",
+        "name": "Tags",
+        "link": ""
+      },
+      {
+        "id": 5,
+        "icon": "https://randomuser.me/api/portraits/med/men/41.jpg",
+        "name": "About",
+        "link": ""
+      }
+    ]
+  }
+]

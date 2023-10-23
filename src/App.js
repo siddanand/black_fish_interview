@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navigation from "./components/navbar";
+import Links from "./components/links";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Posts from "./components/posts";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <div className="container">
+        <Row>
+          <Col xs={3}>
+            <Links />
+          </Col>
+          <Col xs={6}>
+            <Posts />
+          </Col>
+          <Col xs={3}>
+            <Links />
+          </Col>
+        </Row>
+        {/* <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <Links />
+        </div> */}
+      </div>
     </div>
   );
 }
